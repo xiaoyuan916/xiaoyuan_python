@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+#install的模块app
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hrs',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +70,8 @@ ROOT_URLCONF = 'oa.urls'
 #     },
 # ]
 
+# 配置html界面关联
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -88,13 +93,26 @@ WSGI_APPLICATION = 'oa.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
+#数据库的使用
+#sqlite3数据库
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+#mysql数据库
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'oa',
+#         'HOST': 'localhost',
+#         'PORT': 3306,
+#         'USER': 'root',
+#         'PASSWORD': '123456',
+#     }
+# }
 
 
 # Password validation
