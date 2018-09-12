@@ -33,4 +33,65 @@
 #### 1.6 简易网络编程
 
     requests模块
+
+### 2，python在linux上面的使用
+
+#### 2.1 各种命令的使用
+    
+    不在赘述
+    
+### 3. python的数据库的使用
+
+#### 3.1 SQL 语法
+    
+    DDL、DML、DQL
+    
+    pymysql模块的使用
+
+### 4. python的web开发Django的使用
+#### 4.1 初始化
+    
+     Django的Django的admin初始化创建一个oa项目
+     
+     django-admin startproject oa .
+     
+     注意：上面的命令最后的那个点，它表示在当前路径下创建项目。
+     
+     启动服务器
+     python manage.py runserver
+     
+#### 4.2 生成hrs
+    
+    python manage.py startapp hrs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
