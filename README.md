@@ -16,7 +16,7 @@
 
 #### 1.3 文件和异常处理
     
-    open函数  try、except捕获异常
+    open函数  try、except捕获异常  with、as 使用
     
     json模块主要有四个比较重要的函数，分别是：
     1，dump - 将Python对象按照JSON格式序列化到文件中
@@ -24,6 +24,13 @@
     3，load - 将文件中的JSON数据反序列化成对象
     4，loads - 将字符串的内容反序列化成Python对象    
     
-#### 1.4 关键字
+#### 1.4 正则表达式
 
-    with、as 
+#### 1.5 线程与进程
+    
+    Thread使用、Process使用、锁的使用
+
+#### 1.6 简易网络编程
+
+    requests模块
+   
