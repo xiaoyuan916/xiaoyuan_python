@@ -60,9 +60,12 @@
      启动服务器
      python manage.py runserver
      
-#### 4.2 生成hrs
+#### 4.2 生成hrs及使用
     
     python manage.py startapp hrs
+    
+    添加view里面的东西并配置urls
+    
 
 
 
