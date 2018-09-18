@@ -68,7 +68,9 @@
     
 ###  5. python的爬虫
 
-#### 5.1 爬虫
+#### 5.1 爬虫scrapy的使用
+
+githup地址：https://github.com/xiaoyuan916/xiaoyuan_python
 
 
 
