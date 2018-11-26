@@ -1,11 +1,12 @@
 from sklearn.datasets import load_boston
-from sklearn.linear_model import LinearRegression, SGDRegressor,  Ridge, LogisticRegression
+from sklearn.linear_model import LinearRegression, SGDRegressor, Ridge, LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, classification_report
 from sklearn.externals import joblib
 import pandas as pd
 import numpy as np
+
 
 def mylinear():
     """
@@ -95,10 +96,14 @@ def logistic():
     :return: NOne
     """
     # 构造列标签名字
-    column = ['Sample code number','Clump Thickness', 'Uniformity of Cell Size','Uniformity of Cell Shape','Marginal Adhesion', 'Single Epithelial Cell Size','Bare Nuclei','Bland Chromatin','Normal Nucleoli','Mitoses','Class']
+    column = ['Sample code number', 'Clump Thickness', 'Uniformity of Cell Size', 'Uniformity of Cell Shape',
+              'Marginal Adhesion', 'Single Epithelial Cell Size', 'Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli',
+              'Mitoses', 'Class']
 
     # 读取数据
-    data = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data", names=column)
+    data = pd.read_csv(
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data",
+        names=column)
 
     print(data)
 
