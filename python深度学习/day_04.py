@@ -128,7 +128,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # 第一个参数：名字，默认值，说明
 tf.app.flags.DEFINE_integer("max_step", 100, "模型训练的步数")
-tf.app.flags.DEFINE_string("model_dir", " ", "模型文件的加载的路径")
+tf.app.flags.DEFINE_string("model_dir", "./tmp/ckpt/checkpoint/model", "模型文件的加载的路径")
 
 # 定义获取命令行参数名字
 FLAGS = tf.app.flags.FLAGS
