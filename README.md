@@ -1,4 +1,5 @@
-# xiaoyuan_python
+
+
 ## python学习
     
     声明：python基于3.7.0的版本
@@ -70,9 +71,12 @@
 
 #### 5.1 爬虫scrapy的使用
 
-githup地址：https://github.com/xiaoyuan916/xiaoyuan_python
 
+###  6. python数据挖掘
 
+###  7. python机器学习
+
+###  8，python深度学习
 
 
 
