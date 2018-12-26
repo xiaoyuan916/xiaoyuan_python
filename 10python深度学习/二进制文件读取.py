@@ -14,6 +14,13 @@ class CifarRead(object):
         # 文件列表
         self.file_list = filelist
 
+
+
+
+
+
+
+
         # 定义读取的图片的一些属性
         self.height = 32
         self.width = 32
