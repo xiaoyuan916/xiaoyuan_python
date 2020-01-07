@@ -1,4 +1,10 @@
 import tensorflow as tf
 
-tf.enable_eager_execution()
-tf.add(1, 2)
+
+def main():
+    hello = tf.constant('hello,tensorflow!')
+    sess = tf.Session()
+    print(sess.run(hello))
+
+if __name__ == '__main__':
+    main()
